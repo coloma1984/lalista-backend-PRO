@@ -9,3 +9,5 @@ mongoose.connect('mongodb://coloma1984:Ahuacate8+@ds159546.mlab.com:59546/heroku
     //mongodb://localhost/angular-auth
     //mysql://b756ad0dbcefdf:d8c25095@eu-cdbr-west-03.cleardb.net/heroku_9a0cf17b594ff50
     //mongodb://<dbuser>:<dbpassword>@ds159546.mlab.com:59546/heroku_jpr720lq
+
+module.exports = mongoose;

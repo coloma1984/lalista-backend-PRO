@@ -1,7 +1,7 @@
 {
   "name": "lalista-ng-backend",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "description": "backend de la aplicacion lalista-ng",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,13 +9,14 @@
     "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Fernando Coloma Garcia",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.19"
+    "mongoose": "^5.9.19",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
